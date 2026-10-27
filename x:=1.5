@@ -1,0 +1,47 @@
+[INFO] [launch]: All log files can be found below /home/user/.ros/log/2026-10-27-08-37-28-272201-4_xterm-9673
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [robot_state_publisher-1]: process started with pid [9675]
+[INFO] [ign gazebo-2]: process started with pid [9677]
+[robot_state_publisher-1] [INFO] [1793090249.141526380] [robot_state_publisher]: got segment base_footprint
+[robot_state_publisher-1] [INFO] [1793090249.141618710] [robot_state_publisher]: got segment base_link
+[robot_state_publisher-1] [INFO] [1793090249.141631447] [robot_state_publisher]: got segment base_scan
+[robot_state_publisher-1] [INFO] [1793090249.141640625] [robot_state_publisher]: got segment camera
+[robot_state_publisher-1] [INFO] [1793090249.141652083] [robot_state_publisher]: got segment lower_left_wheel
+[robot_state_publisher-1] [INFO] [1793090249.141664608] [robot_state_publisher]: got segment lower_right_wheel
+[robot_state_publisher-1] [INFO] [1793090249.141673806] [robot_state_publisher]: got segment upper_left_wheel
+[robot_state_publisher-1] [INFO] [1793090249.141681667] [robot_state_publisher]: got segment upper_right_wheel
+[ign gazebo-2] QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-user'
+[INFO] [create-3]: process started with pid [9796]
+[INFO] [parameter_bridge-4]: process started with pid [9798]
+[INFO] [static_transform_publisher-5]: process started with pid [9800]
+[INFO] [static_transform_publisher-6]: process started with pid [9811]
+[create-3] [INFO] [1793090252.208057112] [ros_gz_sim]: Requesting list of world names.
+[static_transform_publisher-6] [INFO] [1793090252.279641468] [static_camera_tf]: Spinning until stopped - publishing transform
+[static_transform_publisher-6] translation: ('0.000000', '0.000000', '0.000000')
+[static_transform_publisher-6] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-6] from 'camera' to 'rubot_mecanum/camera/rgbd_camera'
+[static_transform_publisher-5] [INFO] [1793090252.362065860] [static_lidar_tf]: Spinning until stopped - publishing transform
+[static_transform_publisher-5] translation: ('0.000000', '0.000000', '0.000000')
+[static_transform_publisher-5] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-5] from 'base_scan' to 'rubot_mecanum/base_footprint/lidar'
+[parameter_bridge-4] [INFO] [1793090252.365359501] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/clock (ignition.msgs.Clock) -> /clock (rosgraph_msgs/msg/Clock)] (Lazy 0)
+[parameter_bridge-4] [INFO] [1793090252.374677416] [ros_gz_bridge]: Creating ROS->GZ Bridge: [/cmd_vel (geometry_msgs/msg/Twist) -> /cmd_vel (ignition.msgs.Twist)] (Lazy 0)
+[parameter_bridge-4] [INFO] [1793090252.381480750] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/odom (ignition.msgs.Odometry) -> /odom (nav_msgs/msg/Odometry)] (Lazy 0)
+[parameter_bridge-4] [INFO] [1793090252.387692158] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/scan (ignition.msgs.LaserScan) -> /scan (sensor_msgs/msg/LaserScan)] (Lazy 0)
+[parameter_bridge-4] [INFO] [1793090252.390950509] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/tf (ignition.msgs.Pose_V) -> /tf (tf2_msgs/msg/TFMessage)] (Lazy 0)
+[parameter_bridge-4] [INFO] [1793090252.393570047] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/camera/image (ignition.msgs.Image) -> /camera/image (sensor_msgs/msg/Image)] (Lazy 0)
+[create-3] [INFO] [1793090252.410866569] [ros_gz_sim]: Waiting messages on topic [robot_description].
+[create-3] [INFO] [1793090252.414059529] [ros_gz_sim]: Requested creation of entity.
+[create-3] [INFO] [1793090252.414104615] [ros_gz_sim]: OK creation of entity.
+[INFO] [create-3]: process has finished cleanly [pid 9796]
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[parameter_bridge-4] [INFO] [1793090265.875653632] [rclcpp]: signal_handler(signum=2)
+[static_transform_publisher-6] [INFO] [1793090265.875667749] [rclcpp]: signal_handler(signum=2)
+[INFO] [parameter_bridge-4]: process has finished cleanly [pid 9798]
+[robot_state_publisher-1] [INFO] [1793090265.875717285] [rclcpp]: signal_handler(signum=2)
+[static_transform_publisher-5] [INFO] [1793090265.875721431] [rclcpp]: signal_handler(signum=2)
+[INFO] [ign gazebo-2]: process has finished cleanly [pid 9677]
+[INFO] [launch]: process[ign gazebo-2] was required: shutting down launched system
+[INFO] [static_transform_publisher-6]: process has finished cleanly [pid 9811]
+[INFO] [static_transform_publisher-5]: process has finished cleanly [pid 9800]
+[INFO] [robot_state_publisher-1]: process has finished cleanly [pid 9675]
