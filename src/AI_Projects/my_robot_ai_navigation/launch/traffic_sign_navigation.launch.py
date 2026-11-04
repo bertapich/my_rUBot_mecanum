@@ -15,7 +15,7 @@ def generate_launch_description():
     return LaunchDescription([
         DeclareLaunchArgument(
             'config_file',
-            default_value='traffic_sign_navigation_sw.yaml',
+            default_value='traffic_sign_navigation_sw_group3.yaml',
         ),
         Node(
             package='my_robot_ai_navigation',
